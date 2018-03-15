@@ -17,7 +17,7 @@ var array2 = [
 ];
 function callArrayUtil(util, array, array2) {
     if (array2 === void 0) { array2 = null; }
-    document.getElementById("output").innerHTML = arrayUtils_js_1["default"][util](array, array2).tostring();
+    document.getElementById("output").innerHTML = arrayUtils_js_1["default"][util](array, array2).toString();
 }
 var _loop_1 = function (property) {
     document.getElementById(property).onclick = function () {
